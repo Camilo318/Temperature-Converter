@@ -1,4 +1,4 @@
-let celciusIn = document.querySelector('#celcius > input');
+et celciusIn = document.querySelector('#celcius > input');
 let fahrenheitIn = document.querySelector('#fahrenheit > input');
 let kelvinIn = document.querySelector('#kelvin > input');
 
@@ -21,7 +21,7 @@ function celciusConverter(){
 function fahConverter(){
 	let fTemp = parseFloat(fahrenheitIn.value);
 	let cTemp = (fTemp - 32) * (5/9);
-	let kTemp = fTemp / 273.15;
+	let kTemp = (fTemp + 459.67) * (5/9);
 	celciusIn.value = cTemp;
 	kelvinIn.value = kTemp;
 }
