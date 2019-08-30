@@ -1,4 +1,4 @@
-et celciusIn = document.querySelector('#celcius > input');
+let celciusIn = document.querySelector('#celcius > input');
 let fahrenheitIn = document.querySelector('#fahrenheit > input');
 let kelvinIn = document.querySelector('#kelvin > input');
 
