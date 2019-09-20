@@ -28,5 +28,12 @@ function fahConverter(){
 
 
 function kelConverter(){
+	let kTemp = parseFloat(kelvinIn.value);
+	let cTemp = kTemp - 273.15;
+	let fTemp = (kTemp - 273.15) * (9/5) + 32;
+
+	celciusIn.value = cTemp;
+	fahrenheitIn.value = fTemp;
+	
 	
 }
